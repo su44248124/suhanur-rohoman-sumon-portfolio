@@ -31,7 +31,7 @@ const Banner = () => {
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="relative ">
-            <img data-aos="zoom-in-left" src={img} className="max-w-sm rounded-lg p-4 shadow-2xl" />
+            <img data-aos="zoom-in-left" src={img} className="max-w-sm rounded-lg p-4 shadow-2xl " />
             <Marquee className='max-w-sm rounded-lg p-4 shadow-2xl'>
               <img src={html} className='h-12 w-12 ml-4 ' alt="" />
               <img src={css} className='h-12 w-12 ml-4' alt="" />

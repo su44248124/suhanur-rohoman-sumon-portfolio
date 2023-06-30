@@ -4,6 +4,7 @@ import Banner from './pages/banner/Banner';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Skills from './pages/skills/Skills';
+import Contactus from './pages/contactus/Contactus';
 
 const App = () => {
   const springProps = useSpring({
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Projects />
       <Skills />
+      <Contactus />
     </animated.div>
   );
 };
