@@ -20,6 +20,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import Marquee from "react-fast-marquee";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import Wave from 'react-wavify';
 
 
 const Banner = () => {
@@ -31,21 +32,36 @@ const Banner = () => {
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="relative ">
-            <img data-aos="zoom-in-left" src={img} className="max-w-sm rounded-lg p-4 shadow-2xl " />
-            <Marquee className='max-w-sm rounded-lg p-4 shadow-2xl'>
-              <img src={html} className='h-12 w-12 ml-4 ' alt="" />
-              <img src={css} className='h-12 w-12 ml-4' alt="" />
-              <img src={js} className='h-12 w-12 ml-4' alt="" />
-              <img src={bootsrap} className='h-12 w-12 ml-4' alt="" />
-              <img src={reactBootsrap} className='h-12 w-12 ml-4' alt="" />
-              <img src={tailwind} className='h-12 w-12 ml-4' alt="" />
-              <img src={react} className='h-12 w-12 ml-4' alt="" />
-              <img src={node} className='h-12 w-12 ml-4' alt="" />
-              <img src={express} className='h-12 w-12 ml-4' alt="" />
-              <img src={mongodb} className='h-12 w-12 ml-4' alt="" />
-              <img src={firebase} className='h-12 w-12 ml-4' alt="" />
-              <img src={figma} className='h-12 w-12 ml-4' alt="" />
-              <img src={photshop} className='h-12 w-12 ml-4' alt="" />
+          <Wave
+          className="image-background"
+          fill="#3F51B5" 
+          paused={false}
+          options={{
+            height: 2,
+            amplitude: 20, 
+            speed: 0.1, 
+            points: 3, 
+          }}
+        />
+        <img
+          data-aos="zoom-in-left"
+          src={img}
+          className="max-w-sm rounded-lg p-4 shadow-2xl absolute top-0 left-0 right-0 bottom-0 m-auto"
+        />
+            <Marquee className='max-w-sm rounded-lg'>
+              <img src={html} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={css} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={js} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={bootsrap} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={reactBootsrap} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={tailwind} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={react} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={node} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={express} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={mongodb} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={firebase} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={figma} className='h-12 w-12 ml-4 rounded-full' alt="" />
+              <img src={photshop} className='h-12 w-12 ml-4 rounded-full' alt="" />
             </Marquee>
           </div>
           <div data-aos="fade-up"

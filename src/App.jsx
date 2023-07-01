@@ -5,6 +5,7 @@ import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Skills from './pages/skills/Skills';
 import Contactus from './pages/contactus/Contactus';
+import Footer from './pages/footer/Footer';
 
 const App = () => {
   const springProps = useSpring({
@@ -14,13 +15,14 @@ const App = () => {
   });
 
   return (
-    <animated.div style={springProps}>
+    <animated.div style={springProps} >
       <Navbar />
       <Banner />
       <About />
       <Projects />
       <Skills />
       <Contactus />
+      <Footer />
     </animated.div>
   );
 };
