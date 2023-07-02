@@ -21,7 +21,7 @@ const About = () => {
   return (
     <Element name="about">
       <Title title="about me" subTitle="about myself" />
-      <div className="md:w-9/12 mx-auto  py-52">
+      <div className="md:w-9/12 mx-auto  my-10 shadow-2xl shadow-indigo-800" >
         <div className="hero-content flex-col lg:flex-row">
           <div
             data-aos="fade-right"
@@ -40,12 +40,8 @@ const About = () => {
             data-aos-duration="1500"
           >
             <h1 className="text-5xl font-bold text-indigo-800">About me</h1>
-            <p className="py-6 text-white">
-              Hi there! I am Suhanur Rohoman Sumon, a passionate and
-              detail-oriented web developer with a strong focus on creating
-              elegant and user-friendly websites. With several years of
-              experience in the industry, I have successfully delivered numerous
-              projects for clients across various domains.
+            <p className="py-2 text-white">
+            I am Suhanur Rohoman Sumon, a passionate junior developer with a thirst for continuous learning. I have a solid understanding in Html,Css,Bootstrap,Javascript,Tailwind Css ,React js .I am also familier withe Node Js,Mongodb , express js. Collaborative and detail-oriented, I thrive in team environments. Eager to contribute to impactful projects and embrace new technologies, I am committed to delivering high-quality solutions. Lets create innovative software together!
             </p>
 
             <button onClick={handleDownload} className="btn btn-primary">

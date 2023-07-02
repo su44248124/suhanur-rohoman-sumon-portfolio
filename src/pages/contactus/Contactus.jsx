@@ -1,6 +1,7 @@
 import Title from "../../hooks/Title";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { Element } from "react-scroll";
 
 const Contactus = () => {
   const form = useRef();
@@ -19,7 +20,7 @@ const Contactus = () => {
 
 
   return (
-    <div className="">
+    <Element className="py-32" name="contact">
       <Title title="Contact Me" subTitle="Get in touch" />
       <div className="min-h-screen md:w-9/12 md:mx-auto shadow-2xl shadow-indigo-800 mb-12">
         <form data-aos="fade-up"
@@ -47,7 +48,7 @@ const Contactus = () => {
           </div>
         </form>
       </div>
-    </div>
+      </Element>
   );
 };
 

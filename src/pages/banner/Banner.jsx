@@ -80,13 +80,13 @@ const Banner = () => {
             <button className="btn btn-primary">Get Started</button>
             <button className="btn btn-secendary ml-4">Contact Me</button><br />
             <button className="btn btn-circle btn-round  mt-4">
-              <FaFacebook className='w-6 h-6 text-blue-700'/>
+            <a href="https://www.facebook.com/suhanurrohoman.sumon">  <FaFacebook className='w-6 h-6 text-blue-700'/></a>
             </button>
             <button className="btn btn-circle btn-round  mt-4 ml-4">
-              <FaLinkedin className='w-6 h-6 text-blue-700 '/>
+            <a href="https://www.linkedin.com/in/suhanur-rohoman-sumon-5b5266237/">  <FaLinkedin className='w-6 h-6 text-blue-700 '/></a>
             </button>
             <button className="btn btn-circle btn-round mt-4 ml-4">
-              <FaGithub className='w-6 h-6'/>
+              <a href="https://github.com/su44248124"><FaGithub className='w-6 h-6'/></a>
             </button>
           </div>
         </div>
