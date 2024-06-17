@@ -18,6 +18,7 @@ const App = () => {
     <animated.div style={springProps}>
       <Navbar />
       <Banner />
+
       <About />
       <Skills />
       <Project />

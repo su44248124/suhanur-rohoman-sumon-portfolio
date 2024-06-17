@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+import "./pages/banner/banner.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="bg-[#222] overflow-hidden">
+    <div className="bg-[#000] overflow-hidden ">
       <App />
     </div>
   </React.StrictMode>
