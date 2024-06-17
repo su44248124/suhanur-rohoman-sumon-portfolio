@@ -1,4 +1,4 @@
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll";
 import img from "../../assets/343399015_6139074462847606_8684665322266873971_n-removebg-preview.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
@@ -27,7 +27,7 @@ const Banner = () => {
   }, []);
   return (
     <Element name="home">
-      <div className="hero min-h-screen">
+      <div className="hero min-h-screen   ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="relative ">
             <Wave
@@ -109,8 +109,25 @@ const Banner = () => {
               exceptional websites. Join me on this journey as I explore the
               world of web development and bring creative ideas to life.
             </p>
-            <button className="btn btn-primary">Get Started</button>
-            <button className="btn btn-secendary ml-4">Contact Me</button>
+            <Link
+              href="contact"
+              to="contact"
+              className="link no-underline hover:underline text-white w-fit"
+              smooth={true}
+              duration={500}
+            >
+              <button className="btn btn-primary">Get Started</button>
+            </Link>
+            <Link
+              href="contact"
+              to="contact"
+              className="link no-underline hover:underline text-white w-fit"
+              smooth={true}
+              duration={500}
+            >
+              <button className="btn btn-secendary ml-4">Contact Me</button>
+            </Link>
+
             <br />
             <button className="btn btn-circle btn-round  mt-4">
               <a href="https://www.facebook.com/suhanurrohoman.sumon">
@@ -125,7 +142,7 @@ const Banner = () => {
               </a>
             </button>
             <button className="btn btn-circle btn-round mt-4 ml-4">
-              <a href="https://github.com/su44248124">
+              <a href="https://github.com/Suhanur-Rohoman-Sumon-github">
                 <FaGithub className="w-6 h-6" />
               </a>
             </button>

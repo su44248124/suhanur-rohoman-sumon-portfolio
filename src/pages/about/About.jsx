@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
 import { saveAs } from "file-saver";
-import resumePDF from "../../assets/suhanur-rohoman-sumon-resume (1).pdf";
+import resumePDF from "../../assets/Suhanur-Rohoman-Sumon-Frontend-Developer-Resume.  (1).pdf";
 
 const About = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const About = () => {
   return (
     <Element name="about">
       <Title title="About Me" subTitle="About Myself" />
-      <div className="md:w-9/12 mx-auto my-10 shadow-2xl shadow-indigo-800">
+      <div className="md:w-10/12 mx-auto my-10 shadow-2xl shadow-indigo-800">
         <div className="hero-content flex-col lg:flex-row">
           <div
             data-aos="fade-right"
@@ -49,14 +49,10 @@ const About = () => {
           >
             <h1 className="text-5xl font-bold text-indigo-600">About me</h1>
             <p className="py-2 text-white">
-              I am Suhanur Rohoman Sumon, a passionate junior developer with a
-              thirst for continuous learning. I have a solid understanding in
-              HTML, CSS, Bootstrap, JavaScript, Tailwind CSS, React.js. I am
-              also familiar with Node.js, MongoDB, and Express.js. Collaborative
-              and detail-oriented, I thrive in team environments. Eager to
-              contribute to impactful projects and embrace new technologies, I
-              am committed to delivering high-quality solutions. Let's create
-              innovative software together!
+              Hi my name is Suhanur Rohoman Sumon .A highly motivated a
+              passionate Fullstack developer.I have 2 year of learning
+              experience and 1 year professionals experience . Passionate about
+              Building Dynamic Web Applications
             </p>
             <button onClick={handleDownload} className="btn btn-primary">
               Download Resume

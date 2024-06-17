@@ -3,14 +3,14 @@ import Title from "../../hooks/Title";
 
 const Skills = () => {
   return (
-    <Element name="skills">
+    <Element className="" name="skills">
       <Title title="Skills" subTitle="Get in touch" />
       <div
         data-aos="fade-up"
         data-aos-duration="3000"
-        className="flex p-8 items-center justify-center md:w-9/12 md:mx-auto shadow-2xl shadow-indigo-800"
+        className="flex border border-indigo-500  p-8 items-center justify-center md:w-9/12 md:mx-auto shadow-2xl shadow-indigo-800"
       >
-        <div className="w-full">
+        <div className="w-full ">
           <div className="md:flex flex-wrap grid grid-cols-2 gap-2">
             <div className="border font-bold border-indigo-500 text-indigo-600 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
               HTML
@@ -31,10 +31,7 @@ const Skills = () => {
               React JS
             </div>
           </div>
-          <div className="md:ml-14 mt-4 md:flex flex-wrap grid grid-cols-2 gap-2">
-            <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
-              Next Js
-            </div>
+          <div className="md:ml-14 md:mr-14  mt-4 md:flex flex-wrap grid grid-cols-2 gap-2">
             <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
               ExpressJS
             </div>
@@ -48,18 +45,28 @@ const Skills = () => {
               TypeScript
             </div>
           </div>
-          <div className="md:ml-32 grid grid-cols-2 gap-2 mt-4 md:flex flex-wrap">
+          <div className="md:ml-32 md:mr-32 grid grid-cols-2 gap-2 mt-4 md:flex flex-wrap">
             <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
-              Mongoose
-            </div>
-            <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
-              Redux
+              Next js
             </div>
             <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
               Git
             </div>
             <div className="border  font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
               Prisma
+            </div>
+          </div>
+          <div className="md:ml-44 md:mr-44 grid grid-cols-2 gap-2 mt-4 md:flex flex-wrap">
+            <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
+              Mongoose
+            </div>
+            <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
+              Redux
+            </div>
+          </div>
+          <div className="md:ml-52 md:mr-52 grid grid-cols-2 gap-2 mt-4 md:flex flex-wrap">
+            <div className="border font-bold border-indigo-500 text-indigo-500 text-center  uppercase text-2xl rounded-md p-4 flex-1 mx-2 min-w-[150px]">
+              Uitesting
             </div>
           </div>
         </div>
