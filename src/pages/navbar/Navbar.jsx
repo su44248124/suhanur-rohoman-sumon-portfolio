@@ -1,14 +1,12 @@
 import { useState } from "react";
-import { Link } from 'react-scroll';
-
+import { Link } from "react-scroll";
+import logo from "../../assets/Navy_Blue_Minimalist_Text_Logo-removebg-preview.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
-
 
   return (
     <nav className="md:fixed md:top-0 md:w-full md:z-50">
@@ -21,7 +19,7 @@ const Navbar = () => {
               duration={1000}
               className="text-gray-300 text-3xl hover:text-white cursor-pointer"
             >
-              suhanur rohoman sumon portfolio
+              <img src={logo} className="h-52 w-52 rounded-full" alt="" />
             </Link>
           </div>
           <div className="hidden md:flex">
@@ -119,13 +117,31 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to="about"
+              to="projects"
               smooth={true}
               duration={500}
               className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               onClick={toggleMenu}
             >
-
+              Projects
+            </Link>
+            <Link
+              to="skills"
+              smooth={true}
+              duration={500}
+              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={toggleMenu}
+            >
+              skills
+            </Link>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={toggleMenu}
+            >
+              contact
             </Link>
           </div>
         </div>
