@@ -18,8 +18,8 @@ const Contactus = () => {
   const sendEmail = (data) => {
     emailjs
       .sendForm(
-        "service_pvmroq8",
-        "template_7hxjdqo",
+        "service_5lrqfr2",
+        "template_xvv4erq",
         form.current,
         "WoZaV_ZGijOfT8x-7"
       )
