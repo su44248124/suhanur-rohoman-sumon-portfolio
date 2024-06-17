@@ -4,7 +4,7 @@ import Title from "../../hooks/Title";
 const Skills = () => {
   return (
     <Element className="" name="skills">
-      <Title title="Skills" subTitle="Get in touch" />
+      <Title title="Skills" subTitle="All of my skills" />
       <div
         data-aos="fade-up"
         data-aos-duration="3000"

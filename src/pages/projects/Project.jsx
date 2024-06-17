@@ -15,7 +15,7 @@ const Project = () => {
   const [active, setIsActive] = useState("Sales");
   return (
     <Element className="" name="projects">
-      <Title title="Projects" subTitle="Get in touch" />
+      <Title title="Projects" subTitle="All of my projects" />
       <div className="w-10/12 mx-auto shadow-2xl shadow-indigo-600">
         <div className="py-16">
           {/* Tabs functionality */}
