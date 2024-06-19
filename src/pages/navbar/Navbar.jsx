@@ -57,6 +57,14 @@ const Navbar = () => {
                 skills
               </Link>
               <Link
+                to="experience"
+                smooth={true}
+                duration={1000}
+                className="text-gray-300 hover:text-white cursor-pointer"
+              >
+                experience
+              </Link>
+              <Link
                 to="contact"
                 smooth={true}
                 duration={1000}
@@ -133,6 +141,15 @@ const Navbar = () => {
               onClick={toggleMenu}
             >
               skills
+            </Link>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={toggleMenu}
+            >
+              experience
             </Link>
             <Link
               to="contact"

@@ -105,3 +105,12 @@ export const NexJsTabPanel = [
 ];
 
 export const tabTitles = ["Frontend", "Backend", "Fullstack", "Next js"];
+
+export const ourservises = [
+  {
+    img: "https://media.licdn.com/dms/image/D4D0BAQGClmrmXTCOuA/company-logo_200_200/0/1691066927068/reworkai_logo?e=1726704000&v=beta&t=N8So9xg_7fbvc8kXOwaTKAkJj_-pJETrw7EzzrJKY-U",
+    title: "Strategic Campaign Planning",
+    discription:
+      "Craft impactful billboard campaigns with our strategic planning, ensuring maximum visibility and engagement.",
+  },
+];

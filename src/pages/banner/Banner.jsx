@@ -1,39 +1,39 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Element, Link } from "react-scroll";
-import img from "../../assets/343399015_6139074462847606_8684665322266873971_n-removebg-preview.png";
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import js from "../../assets/js.png";
-import bootsrap from "../../assets/bootstrap.jpg";
-import reactBootsrap from "../../assets/react-bootsrap.jpg";
-import tailwind from "../../assets/tailwind.png";
-import react from "../../assets/react.png";
-import node from "../../assets/node.png";
-import express from "../../assets/express.jpg";
-import mongodb from "../../assets/mongodb.jpg";
-import firebase from "../../assets/firebase.png";
-import figma from "../../assets/figma.png";
-import photshop from "../../assets/photoshop.png";
 import Typewriter from "react-ts-typewriter";
 import AOS from "aos";
-import Marquee from "react-fast-marquee";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import Wave from "react-wavify";
 import "aos/dist/aos.css";
 import "../../pages/styel.scss";
-
+import imge from "../../assets/profile-pic (6).png";
 const Banner = () => {
   useEffect(() => {
     AOS.init();
   }, []);
 
+  const backgroundImageUrl =
+    "https://i0.wp.com/static.vecteezy.com/system/resources/thumbnails/040/862/024/original/beautiful-abstract-futuristic-animation-with-particles-on-black-background-3d-render-abstract-particles-animation-video.jpg?ssl=1"; // Replace with your image URL
+
   return (
     <div>
       <Element className="" name="home">
-        <div className="hero min-h-screen ">
+        <div
+          className="hero min-h-screen"
+          style={{
+            backgroundImage: `url(${backgroundImageUrl})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="md:w-[30%]">
+              <img
+                src={imge}
+                className="w-full h-full rounded-full shadow-2xl"
+              />
+            </div>
             <div
-              className="md:text-center pr-4"
+              className="md:w-[70%] pr-4"
               data-aos="fade-up"
               data-aos-duration="3000"
             >
@@ -93,7 +93,6 @@ const Banner = () => {
               </button>
             </div>
           </div>
-          <div className="gradient "></div>
         </div>
       </Element>
     </div>

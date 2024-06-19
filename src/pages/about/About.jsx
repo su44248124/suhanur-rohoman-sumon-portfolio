@@ -37,10 +37,10 @@ const About = () => {
 
   return (
     <div className="relative">
-      <div className="absolute gradient "></div>
+      <div className="absolute hidden md:block  gradient inset-0"></div>
       <Element name="about">
         <Title title="About Me" subTitle="About Myself" />
-        <div className="  md:w-10/12 mx-auto my-10  ">
+        <div className="z-40  md:w-10/12 mx-auto my-10  ">
           <div className="hero-content flex-col lg:flex-row ">
             <div
               data-aos="fade-right"
@@ -97,7 +97,7 @@ const About = () => {
           </div>
         </div>
       </Element>
-      <div className="absolute gradient  bottom-0 right-0"></div>
+      <div className="absolute gradient hidden md:block   bottom-0 right-0"></div>
     </div>
   );
 };

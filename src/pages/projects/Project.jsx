@@ -15,7 +15,7 @@ const Project = () => {
   const [active, setIsActive] = useState("Sales");
   return (
     <div className="relative">
-      <div className="absolute gradient top-0 right-0"></div>
+      <div className="absolute hidden md:block  gradient top-0 right-0"></div>
       <Element className="" name="projects">
         <Title title="Projects" subTitle="All of my projects" />
         <div className="w-10/12 mx-auto  shadow-indigo-600">
@@ -41,7 +41,7 @@ const Project = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   {FrontendTabPanel.map((panelContent, index) => (
                     <div
-                      className="card   shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+                      className="card border border-white  shadow-2xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
                       key={index}
                     >
                       <figure className="relative h-64 w-full overflow-hidden">
