@@ -6,6 +6,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import "aos/dist/aos.css";
 import "../../pages/styel.scss";
 import imge from "../../assets/profile-pic (6).png";
+import { Controls, Player } from "@lottiefiles/react-lottie-player";
 const Banner = () => {
   useEffect(() => {
     AOS.init();
@@ -92,6 +93,30 @@ const Banner = () => {
                 </a>
               </button>
             </div>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            className=" md:mt-[600px] hidden md:block"
+          >
+            <Player
+              autoplay
+              speed={1.5}
+              loop
+              src="https://lottie.host/9da8988f-e037-43c5-862e-0091dee5f0ec/mOrdpTkLpJ.json"
+              style={{ height: "30%", width: "30%" }}
+            >
+              <Controls
+                buttons={[
+                  "play",
+                  "repeat",
+                  "frame",
+                  "debug",
+                  "snapshot",
+                  "background",
+                ]}
+              />
+            </Player>
           </div>
         </div>
       </Element>
