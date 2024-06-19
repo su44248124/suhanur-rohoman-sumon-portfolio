@@ -97,7 +97,7 @@ const Banner = () => {
           <div
             data-aos="zoom-in"
             data-aos-duration="3000"
-            className=" md:mt-[600px] hidden md:block"
+            className=" md:mt-[500px] hidden md:block"
           >
             <Player
               autoplay
