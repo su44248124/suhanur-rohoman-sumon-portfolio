@@ -3,7 +3,7 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { Element } from "react-scroll";
 import { useForm } from "react-hook-form";
-import toast from "react-hot-toast";
+
 import { Controls, Player } from "@lottiefiles/react-lottie-player";
 
 const Contactus = () => {
@@ -15,7 +15,7 @@ const Contactus = () => {
 
   const form = useRef();
 
-  const sendEmail = (data) => {
+  const sendEmail = () => {
     emailjs.sendForm("YOUR_SERVICE_ID", "template_xvv4erq", "#myForm").then(
       (response) => {
         console.log("SUCCESS!", response.status, response.text);

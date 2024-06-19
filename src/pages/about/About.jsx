@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Element } from "react-scroll";
 import Title from "../../hooks/Title";
 import "aos/dist/aos.css";

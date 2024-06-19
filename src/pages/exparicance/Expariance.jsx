@@ -1,4 +1,3 @@
-import React from "react";
 import { FaAlipay } from "react-icons/fa";
 import {
   VerticalTimeline,
