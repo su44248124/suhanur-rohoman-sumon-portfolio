@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import "../../pages/styel.scss";
 import imge from "../../assets/profile-pic (6).png";
 import { Controls, Player } from "@lottiefiles/react-lottie-player";
+import "./banner.css";
 const Banner = () => {
   useEffect(() => {
     AOS.init();
@@ -27,7 +28,7 @@ const Banner = () => {
           }}
         >
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <div className="md:w-[30%]">
+            <div className="md:w-[30%] cards">
               <img
                 src={imge}
                 className="w-full h-full rounded-full shadow-2xl"
@@ -41,7 +42,7 @@ const Banner = () => {
               <h1 className="md:text-6xl text-4xl font-bold mt-6 text-[#0066FF]">
                 Hey 👋
               </h1>
-              <h1 className="md:text-5xl text-4xl font-bold mt-6 text-indigo-600">
+              <h1 className="md:text-5xl text-4xl font-bold mt-6 text-indigo-600 ">
                 Welcome to Suhanur Rohoman Sumon Portfolio
               </h1>
               <h1 className="text-4xl font-bold py-4 text-white">

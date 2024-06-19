@@ -10,7 +10,7 @@ const Skills = () => {
         <div
           data-aos="fade-up"
           data-aos-duration="3000"
-          className="flex border border-indigo-500  p-8 items-center justify-center md:w-9/12 md:mx-auto  "
+          className="flex  border border-indigo-500  p-8 items-center justify-center md:w-9/12 md:mx-auto  "
         >
           <div className="w-full ">
             <div className="md:flex flex-wrap grid grid-cols-2 gap-2">

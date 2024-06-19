@@ -268,7 +268,7 @@ const Project = () => {
             </Tabs>
           </div>
         </div>
-        <div className="gradient absolute -bottom-52 left-0"></div>
+        <div className="gradient absolute  left-0"></div>
       </Element>
     </div>
   );

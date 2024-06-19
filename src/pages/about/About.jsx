@@ -37,7 +37,6 @@ const About = () => {
 
   return (
     <div className="relative">
-      <div className="absolute hidden md:block  gradient inset-0"></div>
       <Element name="about">
         <Title title="About Me" subTitle="About Myself" />
         <div className="z-40  md:w-10/12 mx-auto my-10  ">
@@ -46,7 +45,7 @@ const About = () => {
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
-              className="relative w-full lg:w-1/2"
+              className="relative w-full lg:w-1/2 "
               style={{ paddingBottom: "56.25%", height: 0 }}
             >
               <video
@@ -97,7 +96,7 @@ const About = () => {
           </div>
         </div>
       </Element>
-      <div className="absolute gradient hidden md:block   bottom-0 right-0"></div>
+      <div className="absolute gradient hidden md:block   top-24 right-0"></div>
     </div>
   );
 };
