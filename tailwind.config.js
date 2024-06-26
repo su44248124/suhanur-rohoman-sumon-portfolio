@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "primary-gradient": "linear-gradient(30deg,#DC02C3 , #5C53Fe)",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };
