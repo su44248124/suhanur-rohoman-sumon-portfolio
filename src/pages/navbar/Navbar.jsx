@@ -51,9 +51,9 @@ const Navbar = () => {
                 to="skills"
                 smooth={true}
                 duration={1000}
-                className="text-gray-300 hover:text-white cursor-pointer"
+                className="text-gray-300  hover:text-white cursor-pointer"
               >
-                skills
+                Skills
               </Link>
               <Link
                 to="experience"
@@ -61,11 +61,11 @@ const Navbar = () => {
                 duration={1000}
                 className="text-gray-300 hover:text-white cursor-pointer"
               >
-                experience
+                Experience
               </Link>
             </div>
           </div>
-          <div>
+          <div className="hidden md:flex">
             <Link
               to="contact"
               smooth={true}
@@ -141,7 +141,7 @@ const Navbar = () => {
               className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               onClick={toggleMenu}
             >
-              skills
+              Skills
             </Link>
             <Link
               to="experience"
@@ -150,17 +150,18 @@ const Navbar = () => {
               className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               onClick={toggleMenu}
             >
-              experience
+              Experience
             </Link>
-            <Link
-              to="contact"
-              smooth={true}
-              duration={500}
-              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              onClick={toggleMenu}
-            >
-              contact
-            </Link>
+            <div className="">
+              <Link
+                to="contact"
+                smooth={true}
+                duration={1000}
+                className="btn btn-primary"
+              >
+                Contact
+              </Link>
+            </div>
           </div>
         </div>
       )}
