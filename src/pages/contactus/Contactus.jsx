@@ -32,7 +32,7 @@ const Contactus = () => {
   return (
     <div className="relative">
       <div className="gradient absolute  right-0 top-0"></div>
-      <Element className="" name="contact">
+      <Element className=" md:w-10/12" name="contact">
         <div className="mt-24">
           <Title title="Contact" subTitle="Contact now" />
 
