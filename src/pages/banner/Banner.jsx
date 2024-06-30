@@ -13,20 +13,10 @@ const Banner = () => {
     AOS.init();
   }, []);
 
-  const backgroundImageUrl =
-    "https://i0.wp.com/static.vecteezy.com/system/resources/thumbnails/040/862/024/original/beautiful-abstract-futuristic-animation-with-particles-on-black-background-3d-render-abstract-particles-animation-video.jpg?ssl=1"; // Replace with your image URL
-
   return (
     <div>
       <Element className="" name="home">
-        <div
-          className="hero min-h-screen"
-          style={{
-            backgroundImage: `url(${backgroundImageUrl})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+        <div className="hero min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="md:w-[30%] cards">
               <img
@@ -39,21 +29,21 @@ const Banner = () => {
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <h1 className="md:text-6xl text-4xl font-bold mt-6 text-[#0066FF]">
+              <h1 className="md:text-6xl text-4xl font-bold mt-6 text-[#d0abff]">
                 Hey 👋
               </h1>
-              <h1 className="md:text-5xl text-4xl font-bold mt-6 text-indigo-600 ">
+              <h1 className="md:text-5xl text-4xl font-bold mt-6 text-[#d0abff] ">
                 Welcome to Suhanur Rohoman Sumon Portfolio
               </h1>
               <h1 className="text-4xl font-bold py-4 text-white">
                 I am a{" "}
                 <Typewriter
-                  speed={200}
-                  text={["Web-Degainer", "Web-Devloper"]}
+                  speed={400}
+                  text={["Web-Degainer", "Web-Developer "]}
                   loop={true}
                 />
               </h1>
-              <p className="py-6 text-white">
+              <p className="py-6 text-[#C6BDD0]">
                 I am a passionate web developer with a focus on creating elegant
                 and intuitive user experiences. Through my portfolio, I showcase
                 my skills and projects, demonstrating my dedication to crafting

@@ -21,8 +21,8 @@ const Expariance = () => {
               contentArrowStyle={{ borderRight: "7px solid #070234" }}
               iconStyle={{
                 background: "#070234",
-                color: "#fff",
-                border: "2px solid #fff",
+                color: "#D0ABFF",
+                border: "2px solid #D0ABFF",
               }}
               icon={<FaAlipay />}
               lineColor="#070234"
@@ -39,11 +39,11 @@ const Expariance = () => {
                   />
                   <div className="mt-4">
                     <h3 className="">
-                      <span className="text-indigo-600 text-xl font-bold">
+                      <span className="text-[#D0ABFF] text-xl font-bold">
                         React js developer Intern
                       </span>{" "}
                       <br />{" "}
-                      <span className="text-indigo-600 text-xl font-bold">
+                      <span className="text-[#D0ABFF] text-xl font-bold">
                         Rework ai{" "}
                       </span>
                       <br />{" "}

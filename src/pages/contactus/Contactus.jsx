@@ -36,7 +36,7 @@ const Contactus = () => {
         <div className="mt-24">
           <Title title="Contact" subTitle="Contact now" />
 
-          <div className="mt-14  shadow-indigo-600 mb-32 w-[85%] mx-auto p-4">
+          <div className="mt-14  shadow-[#D0ABFF] mb-32 w-[85%] mx-auto p-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div data-aos="zoom-in" data-aos-duration="3000" className=" ">
                 <Player

@@ -82,8 +82,8 @@ const About = () => {
               data-aos-duration="1500"
               className="lg:ml-8 mt-8 lg:mt-0 w-full lg:w-1/2 z-10 relative"
             >
-              <h1 className="text-5xl font-bold text-indigo-600">About me</h1>
-              <p className="py-2 text-white">
+              <h1 className="text-5xl font-bold text-[#D0ABFF]">About me</h1>
+              <p className="py-2 text-[#C6BDD0]">
                 Hi my name is Suhanur Rohoman Sumon. A highly motivated and
                 passionate Fullstack developer. I have 2 years of learning
                 experience and 1 year of professional experience. Passionate

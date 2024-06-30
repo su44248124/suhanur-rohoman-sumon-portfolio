@@ -19,7 +19,7 @@ const Project = () => {
       <div className="absolute hidden md:block gradient top-0 right-0"></div>
       <Element name="projects">
         <Title title="Projects" subTitle="All of my projects" />
-        <div className="w-10/12 mx-auto shadow-indigo-600">
+        <div className="w-10/12 mx-auto shadow-[#eeecf1]">
           <div className="py-16">
             <Tabs>
               <TabList className="lg:w-10/12 mx-auto grid grid-cols-2 lg:grid-cols-6 place-items-center gap-y-3 mb-24">
@@ -29,8 +29,8 @@ const Project = () => {
                     onClick={() => setIsActive(tabTitle)}
                     className={`${
                       active === tabTitle
-                        ? "bg-indigo-600 text-white"
-                        : "bg-transparent text-indigo-600"
+                        ? "bg-transparent text-[#FFF]"
+                        : "bg-transparent text-[#D0ABFF]"
                     } py-1 lg:py-3 px-3 lg:px-5 border text-xl font-semibold tracking-tight cursor-pointer w-[140px] transition-colors duration-200 text-center`}
                   >
                     {tabTitle}
@@ -52,7 +52,7 @@ const Project = () => {
                         />
                       </figure>
                       <div className="p-4">
-                        <h2 className="text-indigo-500 font-bold text-2xl mb-2">
+                        <h2 className="text-[#D0ABFF] font-bold text-2xl mb-2">
                           {panelContent.heading}
                         </h2>
                         <div className="badge badge-secondary mb-4">
@@ -109,7 +109,7 @@ const Project = () => {
                         />
                       </figure>
                       <div className="p-4">
-                        <h2 className="text-indigo-500 font-bold text-2xl mb-2">
+                        <h2 className="text-[#D0ABFF] font-bold text-2xl mb-2">
                           {panelContent.heading}
                         </h2>
                         <div className="badge badge-secondary mb-4">
@@ -166,7 +166,7 @@ const Project = () => {
                         />
                       </figure>
                       <div className="p-4">
-                        <h2 className="text-indigo-500 font-bold text-2xl mb-2">
+                        <h2 className="text-[#D0ABFF] font-bold text-2xl mb-2">
                           {panelContent.heading}
                         </h2>
                         <div className="badge badge-secondary mb-4">
@@ -223,7 +223,7 @@ const Project = () => {
                         />
                       </figure>
                       <div className="p-4">
-                        <h2 className="text-indigo-500 font-bold text-2xl mb-2">
+                        <h2 className="text-[#D0ABFF] font-bold text-2xl mb-2">
                           {panelContent.heading}
                         </h2>
                         <div className="badge badge-secondary mb-4">

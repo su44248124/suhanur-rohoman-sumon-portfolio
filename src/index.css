@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .btn-primary {
-  @apply bg-gradient-to-br from-yellow-400 via-red-500 to-pink-500 hover:from-yellow-500 hover:via-red-600 hover:to-pink-600 text-white   py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out;
+  @apply bg-gradient-to-br from-[#4658fe]  to-[#e03df5] rounded-md;
 }
 .btn-secendary {
-  @apply bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-bold   py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out ml-2;
+  @apply bg-gradient-to-br from-pink-500 to-purple-500 ml-2 rounded-md border-none text-white;
 }
 
 .btn-round {

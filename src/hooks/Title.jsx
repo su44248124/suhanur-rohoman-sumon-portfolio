@@ -3,7 +3,7 @@ const Title = ({ title, subTitle }) => {
     <div className="my-12">
       <p className="text-center text-white text-2xl uppercase">{title}</p>
       <hr className="w-4/12  mx-auto my-4" />
-      <h1 className="text-center text-4xl text-indigo-600 font-bold uppercase">
+      <h1 className="text-center text-4xl text-[#D0ABFF] font-bold uppercase">
         {subTitle}
       </h1>
       <hr className="w-4/12  mx-auto my-4" />

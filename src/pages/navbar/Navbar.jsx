@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import logo from "../../assets/Navy_Blue_Minimalist_Text_Logo-removebg-preview.png";
+import logo from "../../assets/Black_White_Minimalist_Logo__2_-removebg-preview.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,17 +9,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="md:fixed md:top-0 md:w-full md:z-50 ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <Link
-              to="home"
-              smooth={true}
-              duration={1000}
-              className="text-gray-300 text-3xl hover:text-white cursor-pointer"
-            >
-              <img src={logo} className="h-52 w-52 rounded-full" alt="" />
+    <nav className="md:fixed md:top-0 md:w-full md:z-50 mt-4">
+      <div className="md:w-10/12 mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between ">
+          <div className="">
+            <Link to="home" smooth={true} duration={1000} className="">
+              <img
+                src={logo}
+                className="h-12 w-12 rounded-full border border-white"
+                alt=""
+              />
             </Link>
           </div>
           <div className="hidden md:flex">
@@ -64,15 +63,17 @@ const Navbar = () => {
               >
                 experience
               </Link>
-              <Link
-                to="contact"
-                smooth={true}
-                duration={1000}
-                className="text-gray-300 hover:text-white cursor-pointer"
-              >
-                contact
-              </Link>
             </div>
+          </div>
+          <div>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={1000}
+              className="btn btn-primary"
+            >
+              contact
+            </Link>
           </div>
           <div className="md:hidden flex items-center">
             <button
