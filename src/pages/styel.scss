@@ -8,8 +8,8 @@
 }
 
 .gradient {
-  --size: 500px;
-  --speed: 50s;
+  --size: 300px;
+  --speed: 10s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
   width: var(--size);
@@ -23,7 +23,7 @@
 
 @media (min-width: 720px) {
   .gradient {
-    --size: 500px;
+    --size: 300px;
   }
 }
 

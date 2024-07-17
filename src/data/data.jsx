@@ -80,13 +80,11 @@ export const FullstackTabPanel = [
     frontendGithubLink:
       "https://github.com/Suhanur-Rohoman-Sumon-github/let-s-scheduled-frontend",
   },
-];
-export const NexJsTabPanel = [
   {
-    heading: "The universal news",
-    subTitle: "A news paper website",
+    heading: "Typo tech",
+    subTitle: "A keyboard selling website",
     para: "Book high-value meetings in seconds and turn scheduling into a competitive advantage.",
-    img: "https://i.ibb.co/vwwzLdc/Whats-App-Image-2024-06-17-at-12-34-25-PM.jpg",
+    img: "https://i.ibb.co/pxQ9swv/Whats-App-Image-2024-07-13-at-10-45-28-PM-1.jpg",
     technology: [
       "express",
       "typescript",
@@ -95,7 +93,25 @@ export const NexJsTabPanel = [
       "react",
       "tailwind css",
       "stripe",
+      "Redux",
     ],
+    para1:
+      "Developed and launched an e-commerce platform for selling high-quality keyboards. Implemented a comprehensive checkout system, integrated multiple payment options including PayPal, Stripe, and cash on delivery, and designed a seamless user interface for product filtering and sorting. Utilized React, Redux, and TypeScript to create a dynamic and user-friendly shopping experience.",
+
+    liveSideLink: "https://typotech.vercel.app/",
+    githubBackendLink:
+      "https://github.com/Suhanur-Rohoman-Sumon-github/TypoTech-server",
+    frontendGithubLink:
+      "https://github.com/Suhanur-Rohoman-Sumon-github/TypoTech-client.git",
+  },
+];
+export const NexJsTabPanel = [
+  {
+    heading: "The universal news",
+    subTitle: "A news paper website",
+    para: "Book high-value meetings in seconds and turn scheduling into a competitive advantage.",
+    img: "https://i.ibb.co/vwwzLdc/Whats-App-Image-2024-06-17-at-12-34-25-PM.jpg",
+    technology: ["next js", "mongodb", "react", "tailwind css", "stripe"],
     para1:
       "Next.js Powered News Portal: Developed a dynamic news website using Next.js, providing lightning-fast performance and server-side rendering capabilities. Integrated with a scalable backend, ensuring real-time updates and personalized user experiences. Designed with a clean interface for seamless navigation and content discovery, offering a modern approach to delivering timely news.",
 

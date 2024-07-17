@@ -16,7 +16,7 @@ const Project = () => {
 
   return (
     <div className="relative">
-      <div className="absolute hidden md:block gradient top-0 right-0"></div>
+      <div className="absolute hidden md:block gradient  bottom-0 right-0"></div>
       <Element name="projects">
         <Title title="Projects" subTitle="All of my projects" />
         <div className="w-10/12 mx-auto shadow-[#eeecf1]">
@@ -41,13 +41,13 @@ const Project = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   {FrontendTabPanel.map((panelContent, index) => (
                     <div
-                      className="card border border-white shadow-2xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+                      className="card shadow-md shadow-black border border-white rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
                       key={index}
                     >
                       <figure className="relative h-64 w-full overflow-hidden">
                         <img
                           src={panelContent.img}
-                          className="w-full h-full "
+                          className="w-full h-full  p-4"
                           alt="Project"
                         />
                       </figure>
@@ -98,13 +98,13 @@ const Project = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   {BackendTabPanel.map((panelContent, index) => (
                     <div
-                      className="card shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+                      className="card shadow-xl border border-white  rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
                       key={index}
                     >
                       <figure className="relative h-64 w-full overflow-hidden">
                         <img
                           src={panelContent.img}
-                          className="w-full h-full "
+                          className="w-full h-full p-4"
                           alt="Project"
                         />
                       </figure>
@@ -155,13 +155,13 @@ const Project = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   {FullstackTabPanel.map((panelContent, index) => (
                     <div
-                      className="card shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+                      className="card shadow-md shadow-black border border-white rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
                       key={index}
                     >
                       <figure className="relative h-64 w-full overflow-hidden">
                         <img
                           src={panelContent.img}
-                          className="w-full h-full "
+                          className="w-full h-full p-4"
                           alt="Project"
                         />
                       </figure>
@@ -182,12 +182,20 @@ const Project = () => {
                             Live Site
                           </a>
                           <a
+                            href={panelContent.gitHubFrontendLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="badge badge-secondary"
+                          >
+                            Frontend GitHub
+                          </a>
+                          <a
                             href={panelContent.githubBackendLink}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="badge badge-secondary"
                           >
-                            GitHub
+                            Backend GitHub
                           </a>
                         </div>
                         <div className="mb-4">
@@ -212,13 +220,13 @@ const Project = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                   {NexJsTabPanel.map((panelContent, index) => (
                     <div
-                      className="card shadow-xl rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
+                      className="card shadow-xl border border-white shadow-black rounded-lg overflow-hidden transform transition duration-500 hover:scale-105"
                       key={index}
                     >
                       <figure className="relative h-64 w-full overflow-hidden">
                         <img
                           src={panelContent.img}
-                          className="w-full h-full "
+                          className="w-full h-full p-4"
                           alt="Project"
                         />
                       </figure>
@@ -268,7 +276,7 @@ const Project = () => {
             </Tabs>
           </div>
         </div>
-        <div className="gradient absolute  left-0"></div>
+        <div className="gradient absolute  left-0 top-52"></div>
       </Element>
     </div>
   );

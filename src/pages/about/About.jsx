@@ -96,7 +96,7 @@ const About = () => {
           </div>
         </div>
       </Element>
-      <div className="absolute gradient hidden md:block   top-24 right-0"></div>
+      <div className="absolute gradient hidden md:block   top-52 right-0"></div>
     </div>
   );
 };
