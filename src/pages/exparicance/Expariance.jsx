@@ -42,27 +42,20 @@ const Expariance = () => {
                     <div className="mt-4">
                       <h3 className="">
                         <span className="text-[#D0ABFF] text-xl font-bold">
-                          React js developer Intern
+                          {ourservis.title}
                         </span>{" "}
                         <br />{" "}
                         <span className="text-[#D0ABFF] text-xl font-bold">
-                          Rework ai{" "}
+                          {ourservis.company}
                         </span>
                         <br />{" "}
-                        <span className="text-white">Nov 2023- June 2024</span>
+                        <span className="text-white">{ourservis.duration}</span>
                       </h3>
                       <p className=""></p>
                       <p> </p>
                     </div>
                   </div>
-                  <p className="text-white">
-                    Enhanced user experiences on Rework ai & Remote, Portals by
-                    resolving bugs & reduced load time by 40%. Built Neurobit
-                    Analytics portal using React Js with seamless interaction of
-                    REST APIs using AXIOS optimized with React Query. Refactored
-                    previous code to TypeScript, updated with new dependency and
-                    integrated Vite with Jest for Unit Testing.
-                  </p>
+                  <p className="text-white">{ourservis.discription}</p>
                 </div>
               </VerticalTimelineElement>
             ))}
